@@ -1,4 +1,4 @@
-Bank Accounts Management System
+# Bank Accounts Management System
 
 This repository contains a Python implementation of a simple Bank Account Management System, which includes the following classes:
 
@@ -6,23 +6,23 @@ This repository contains a Python implementation of a simple Bank Account Manage
 2. InterestRewardsAcct: Inherits from BankAccount and adds functionality to provide a 5% interest reward on deposits.
 3. SavingsAccount: Inherits from InterestRewardsAcct and introduces a fee on withdrawals.
 
-Table of Contents
+### Table of Contents
 * Installation
 * Usage
 * Classes
 * Examples
 
-Installation
+### Installation
 
 1. Clone the repository to your local machine: git clone https://github.com/RohanKumariya/Bank-Accounts-Management-System.git
 2. Navigate to the project directory: cd bank-accounts
 3. Run the main.py file: python main.py
 
-Usage
+### Usage
 
 This Bank Account Management System provides a simple way to create and manage bank accounts, make deposits, withdrawals, and transfers. It includes three classes:
 
-Classes
+### Classes
 
 *BankAccount*
 * Represents a basic bank account with the following methods:
@@ -38,7 +38,7 @@ Classes
 * Overrides the withdraw() method to account for the withdrawal fee.
 
 
-Examples
+### Examples
 Here are some basic usage examples:
 
 * Create a BankAccount
@@ -49,6 +49,5 @@ Here are some basic usage examples:
 * Withdraw money from the savings account (with withdrawal fee)
 * Transfer money between accounts
 
-Guided Project
-This is a guided project from Dave Gary's YouTube channel.
+
 
